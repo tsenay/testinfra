@@ -1,0 +1,9 @@
+type: virtual_machine
+provider:
+  type: vsphere
+  environment: dev
+family: RedHat
+version: rhel-7.5
+flavor: nano
+networks:
+  - dev
